@@ -1,0 +1,45 @@
+//clases en c++
+
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+
+class Persona(
+private:
+    int edad;
+    string nombre;
+
+public:
+    Persona(int, string);
+    void leer();
+    void correr();
+
+);
+
+Persona::Persona(int _edad,string _nombre)[
+
+    edad = _edad;
+    nombre = _nombre;
+]
+
+void Persona::leer()[
+
+cout<<"soy"<<nombre<<"y estoy leyendo un libro"<<endl;
+]
+void Persona::correr()[
+
+cout<<"soy"<<nombre<<"y estoy corriendo una maraton"<<endl;
+
+]
+
+int main()[
+
+
+
+
+    system("pause");
+
+    return 0;
+
+    ]
